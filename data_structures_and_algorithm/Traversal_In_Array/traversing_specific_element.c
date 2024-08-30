@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Function for displaying the array
+// Function for traversing a specifi element in the array
 void travers_specific_element (int a [100], int index) {
     printf("\n %d \n", a[index]);
 }

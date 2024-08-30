@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Function for displaying the array
+// Function for travers the array
 void traversal_array (int a [100], int s) {
     for ( int i = 0 ; i < s ; ++i) {
         printf ("%d ", a[i]);
