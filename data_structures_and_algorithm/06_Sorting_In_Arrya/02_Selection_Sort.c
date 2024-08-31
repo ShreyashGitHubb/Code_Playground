@@ -30,12 +30,14 @@ int main(){
     int size = 10; 
 
     // printing the array before selection sort  
+    printf("Array before selection sort:\n"); 
     printarray(Arr,size);
 
     //preforming the selection short
     selection_sort(Arr,size);    
 
     // printing the array after selection sort  
+    printf("Array after selection sort:\n"); 
     printarray(Arr,size);
 
     return 0;

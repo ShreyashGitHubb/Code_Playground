@@ -27,12 +27,14 @@ int main(){
     int size = 10; 
 
     // printing the array before insertion sort  
+    printf("Array before insertion sort:\n");
     printarray(Arr,size);
 
     //preforming the insertion short
     insertion_sort(Arr,size);    
 
     // printing the array after insertion sort  
+    printf("Array after insertion sort:\n");
     printarray(Arr,size);
 
     return 0;

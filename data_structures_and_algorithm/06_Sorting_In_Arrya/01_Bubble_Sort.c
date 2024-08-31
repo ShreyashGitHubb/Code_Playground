@@ -28,12 +28,14 @@ int main(){
     int size = 10; 
 
     // printing the array before bubble sort  
+    printf("Array before bubble sort:\n");
     printarray(Arr,size);
 
     //preforming the bubble short
     bubble_sort(Arr,size);    
 
     // printing the array after bubble sort  
+    printf("Array after bubble sort:\n");
     printarray(Arr,size);
 
     return 0;
